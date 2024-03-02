@@ -23,7 +23,7 @@ app.use((0, cors_1.default)());
 const baseUrl = "https://gogoanime.gr";
 const apiUrl = "https://ajax.gogo-load.com/ajax";
 app.get('/', (req, res) => {
-    res.send('Hello, world!');
+    res.send('Hello, Api is on');
 });
 app.get('/anime/:name', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     let name = req.params.name;
